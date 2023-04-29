@@ -5,6 +5,16 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <MainLayout></MainLayout>,
+    children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
+      {
+        path: "/booking",
+        element: <Booking></Booking>,
+      },
+    ],
   },
 ]);
 
