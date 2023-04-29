@@ -2,7 +2,7 @@ import React from "react";
 import { FaSearch } from "react-icons/fa";
 const Header = () => {
   return (
-    <nav className="flex items-center justify-between flex-wrap bg-blue-500 p-6 ">
+    <nav className="flex items-center justify-between flex-wrap bg-transparent p-6 ">
       <div className="flex items-center flex-shrink-0 text-white mr-6">
         <svg className="fill-current h-8 w-8 mr-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
           <path d="M12 1C6.485 1 2 5.485 2 11s4.485 10 10 10 10-4.485 10-10S17.515 1 12 1zm0 18c-3.866 0-7-3.134-7-7s3.134-7 7-7 7 3.134 7 7-3.134 7-7 7z" />
